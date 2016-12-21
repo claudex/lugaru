@@ -1,0 +1,2 @@
+?package(lugaru):needs="X11" section="Applications/games"\
+  title="lugaru" command="/usr/games/lugaru"

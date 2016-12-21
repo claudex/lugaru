@@ -1,0 +1,21 @@
+Source: lugaru
+Section: games
+Priority: optional
+Maintainer: Xavier Claude <contact+debian@xavierclaude.be>
+Build-Depends: debhelper (>= 9), cmake, libglu1-mesa-dev, libsdl2-dev, libjpeg-dev, libpng-dev, libopenal-dev, libvorbis-dev, zlib1g-dev
+Standards-Version: 3.9.6
+Homepage: https://osslugaru.gitlab.io/
+#Vcs-Git: git://anonscm.debian.org/collab-maint/lugaru.git
+#Vcs-Browser: http://anonscm.debian.org/?p=collab-maint/lugaru.git;a=summary
+
+Package: lugaru
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Lugaru is a cross-platform third-person action game. 
+ Lugaru (pronounced Loo-GAH-roo) is a cross-platform third-person action game.
+ The main character, Turner, is an anthropomorphic rebel bunny rabbit with
+ impressive combat skills. In his quest to find those responsible for
+ slaughtering his village, he uncovers a far-reaching conspiracy involving the
+ corrupt leaders of the rabbit republic and the starving wolves from a nearby
+ den. Turner takes it upon himself to fight against their plot and save his
+ fellow rabbits from slavery.
